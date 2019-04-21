@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+  minidlna:
+    container_name: 'minidlna'
+    image: 'carlosrabelo/minidlna:1.0'
+    restart: always
+    ports:
+      - '8200:8200'
+    volumes:
+      - '~/Videos:/opt'
+    network_mode: host
