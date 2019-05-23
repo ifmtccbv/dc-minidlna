@@ -1,4 +1,4 @@
-PROJECT := ifmt
+PROJECT := minidlna
 LATEST  := carlosrabelo/minidlna:latest
 CURRENT := carlosrabelo/minidlna:1.0
 
