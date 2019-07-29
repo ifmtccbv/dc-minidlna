@@ -1,6 +1,6 @@
-PROJECT := minidlna
-LATEST  := carlosrabelo/minidlna:latest
-CURRENT := carlosrabelo/minidlna:1.0
+PROJECT := ifmt
+LATEST  := ifmt/minidlna:latest
+CURRENT := ifmt/minidlna:1.0
 
 restart: stop start
 
